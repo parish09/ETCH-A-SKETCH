@@ -15,7 +15,7 @@
 	 display: grid;
 }
 body{
-	background-color: #53AC8B;
+	background: url(congruent_pentagon/congruent_pentagon.png);
 }
 h1{
 	font-size: 70px;
@@ -23,7 +23,7 @@ h1{
     -webkit-text-stroke-color: white;
 	color:#5374AC;
 }
-#reset{
+.button{
 	
 	color: white;
 	font-size: 20px;
