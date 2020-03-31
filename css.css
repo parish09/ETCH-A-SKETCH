@@ -5,9 +5,9 @@
 }
 #container{
 
-	 margin: 200px;
-	 height: 500px;
-	 width:500px;
+	 margin: 10px 0px 0px 0px;
+	 height: 700px;
+	 width:700px;
 	 border: solid;
 	 border-width: 5px;
 	 border-color: green;
@@ -15,5 +15,23 @@
 	 display: grid;
 }
 body{
-	background-color: black;
+	background-color: #53AC8B;
+}
+h1{
+	font-size: 70px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+	color:#5374AC;
+}
+#reset{
+	
+	color: white;
+	font-size: 20px;
+	height: 40px;
+	border:none;
+	background-color: #53A0AC;
+	outline: none;
+}
+*:focus {
+    outline: 0 !important;
 }
