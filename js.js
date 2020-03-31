@@ -40,5 +40,11 @@ reset.addEventListener('click',function(e){
   grid(n);
 })
 
+let clr=document.querySelector('#clear');
+clr.addEventListener('click',function(e){
+  clear();
+  grid(n);
+})
+
 
 grid(n);
