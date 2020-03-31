@@ -1,4 +1,5 @@
 # ETCH-A-SKETCH
+[CLICK TO PLAY NOW](https://parish09.github.io/ETCH-A-SKETCH/)  
 A browser version of an Etch-A-Sketch.
 
 # Screenshot
