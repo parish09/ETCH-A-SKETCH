@@ -5,19 +5,20 @@
 }
 #container{
 
-	 margin: 10px 0px 0px 0px;
+	 margin: 5px 0px 5px 0px;
 	 height: 700px;
 	 width:700px;
 	 border: solid;
 	 border-width: 5px;
 	 border-color: green;
-	 background-color: yellow;
+	 background-color: white;
 	 display: grid;
 }
 body{
 	background: url(congruent_pentagon/congruent_pentagon.png);
 }
 h1{
+	margin: 32px;
 	font-size: 70px;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
@@ -31,7 +32,4 @@ h1{
 	border:none;
 	background-color: #53A0AC;
 	outline: none;
-}
-*:focus {
-    outline: 0 !important;
 }
