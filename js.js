@@ -1,27 +1,9 @@
-const container = document.querySelector('#container');
-let initgridSize=6;
+let n=prompt("Enter grid size");
+const cont=document.getElementById('container');
 
-
-
-
-
-
-
-
-
-
-function drawGrid(gridSize, container) {
- 
-  var gs = parseInt(gridSize);
-  const totalSize = gs * gs;
-  for(let i=0; i<totalSize; i++) {
-    var gridDiv = document.createElement('div');
-    gridDiv.classList.add('box');
-    gridDiv.style.width = Math.floor(containerSize / gs) + 'px';
-    gridDiv.style.height = gridDiv.style.width;
-    gridDiv.style.backgroundColor = 'white';
-    container.appendChild(gridDiv);
-    gridDiv.addEventListener('mouseover', changeColor);
+function grid(){
+  for(let i=0;i<n*n;i++){
+    let dom=document.createElement('div');
+    dom.classList.add('box');
   }
 }
-drawGrid(initgridSize, container);
